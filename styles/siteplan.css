@@ -1,0 +1,94 @@
+:root {
+    /* https://coolors.co/ef798a-f7a9a8-7d82b8-613f75-e5c3d1 */
+    --primary-color: #7282b8;
+    --secondary-color: #361f75;
+    --background-color: #e5c3d1;
+
+    --paragraph-font: Georgia, Verdana;
+    --heading-font: Courier, Trebuchet;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+section {
+    border: 1px solid var(--secondary-color);
+    margin: 20px;
+    padding: 10px;
+}
+
+#site-name {
+    background-color: var(--primary-color);
+}
+
+#site-purpose {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#scenarios {
+    background-color: rgb(50, 48, 48);
+    color: var(--background-color);
+}
+
+#color-schema div {
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+#main-color {
+    background-color: var(--primary-color);
+}
+
+#secondary-color {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#background-color {
+    background-color: var(--background-color);
+}
+
+#color-schema .examples {
+    font-size: 1em;
+}
+
+.examples h4 {
+    font-size: 1.1em;
+    color: var(--primary-color);
+}
+
+.examples p {
+    font-size: .8em;
+    color: var(--secondary-color);
+}
+
+#typography h3 {
+    font-family: var(--heading-font);
+    font-size: 1.5em;
+}
+
+#typography p {
+    font-family: var(--paragraph-font);
+}
+
+#wireframe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#wireframe img {
+    width: 80%;
+}
