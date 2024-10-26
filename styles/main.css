@@ -121,4 +121,14 @@ footer div {
         grid-column: 2/3;
         grid-row: 1/2;
     }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div {
+        padding: 20px;
+        text-align: center;
+    }
 }
