@@ -31,28 +31,45 @@
     <link rel="stylesheet" href="./styles/homepage.css">
 
     <!-- scripts -->
-    <script src="./scripts/landingpage.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
 
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="./images/lashoppeBlackYellow.png" alt="LaShoppe logo image with teh tagline: smart shopping">
         </div>
-        <div>
-            <button class="wayfinder">&#9776;</button>
-            <nav>
+        <div class="menu">
+            <button class="wayfinder" id="wayfinder">&#9776;</button>
+            <nav id="mobile-nav">
                 <a href="./index.html">Home</a>
                 <a href="./shopping.html">Shop</a>
                 <a href="./support.html">Support</a>
             </nav>
         </div>
-        <div>
-            <button>Cart</button>
+        <div class="cart">
+            <button>View Cart</button>
         </div>
     </header>
-    <main>
+    <main id="home-content">
+        <section id="purpose">
+            <div>
+                <img src="./images/statues.jpeg" alt="Bronze statues from North Dakota Capitol Building">
+            </div>
+            <div>
+                <h2>Our Journey to Sustainable Fashion</h2>
+                <p>LaShoppe began as a small passion project driven by a desire to make fashion both affordable and eco-friendly. Seeing the vast amount of waste produced by the fashion industry, we set out to create a boutique shopping experience that celebrates unique, thrifted pieces without compromising on quality or style. We believe that everyone deserves to express themselves through fashion, but not at the cost of our planet. Our journey has been shaped by our commitment to reducing waste, supporting sustainable practices, and offering carefully curated items that bring a new life to pre-loved clothing.</p>
 
+                <h2>Our Purpose and Promise</h2>
+                <p>At LaShoppe, we aim to make sustainable fashion more accessible and approachable. Our team is dedicated to selecting pieces that align with our values of modern, modest, and timeless style, allowing our customers to create a wardrobe that reflects who they are while making a positive impact on the environment. Each item in our collection has been chosen with care, ensuring that our customers not only look great but also feel empowered by making a conscious choice. By shopping with us, you join a community that values fashion with a purpose—fashion that makes a difference.</p>
+            </div>
+        </section>
+        <section id="shop-hero">
+            <div class="hero-container">
+                <img src="./images/hero.jpeg" alt="hero image for shopping portal">
+                <a href="./shopping.html" class="hero-button">Shop!</a>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="contact-info">
@@ -76,7 +93,7 @@
                 <img src="./images/Instagram_icon.png" alt="instagram logo image">
             </a>
         </div>
-        <div>
+        <div class="back-to-top">
             <a href="#">Back to Top</a>
         </div>
     </footer>

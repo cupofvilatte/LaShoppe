@@ -7,3 +7,118 @@
     --heading-font: Courier, Trebuchet;
 
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin: 10px;
+    border: 3px solid var(--background-color);
+}
+
+.wayfinder {
+    display: none;
+}
+
+nav {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.5em;
+    background-color: var(--background-color);
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+header button {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 35px;
+    margin-right: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--primary-color);
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+footer div {
+    justify-self: center;
+    align-self: center;
+}
+
+.socials img {
+    width: 75px;
+    border: none;
+}
+
+.back-to-top {
+    grid-column: 2/3;
+}
+
+@media (max-width: 720px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-content: center;
+        justify-items: center;
+    }
+
+    .wayfinder {
+        display: inline;
+        cursor: pointer;
+    }
+
+    #mobile-nav {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mobile-nav a {
+        margin: 5px;
+    }
+
+    .logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .menu {
+        grid-column: 1/3;
+    }
+
+    .cart {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+}
