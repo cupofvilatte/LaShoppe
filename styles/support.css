@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #7282b8;
+    --secondary-color: #361f75;
+    --background-color: #e5c3d1;
+
+    --paragraph-font: Georgia, Verdana;
+    --heading-font: Courier, Trebuchet;
+}
+
+/* Basic styling for the support form */
+form {
+    max-width: 500px; /* Limit the width of the form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+fieldset {
+    border: none; /* Remove the default border */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+legend {
+    font-size: 1.5em; /* Larger font size for the legend */
+    margin-bottom: 15px; /* Space below the legend */
+    color: #333; /* Dark gray color for the text */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below each label */
+    color: #555; /* Medium gray color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 1em; /* Base font size */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button[type="submit"] {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007bff; /* Primary color for the button */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em; /* Base font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
