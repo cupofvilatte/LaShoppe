@@ -37,6 +37,7 @@
             alert("Issue sent!");
         }
     </script>
+    <script src="./scripts/support.js" defer></script>
 
 </head>
 <body>
@@ -70,6 +71,11 @@
 
                     <label for="concern">Concern:</label>
                     <textarea id="concern" name="concern" rows="4" placeholder="Describe your concern here..." required></textarea>
+
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                    </select>
 
                     <button type="submit">Submit</button>
                 </fieldset>
