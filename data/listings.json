@@ -1,0 +1,58 @@
+{
+    "clothingItems": [
+      {
+        "name": "Active Dress",
+        "image": "../images/active-dress.jpeg",
+        "description": "A breathable, lightweight dress perfect for workouts or casual outings.",
+        "price": 49.99
+      },
+      {
+        "name": "Beach Dress",
+        "image": "../images/beach-dress.jpeg",
+        "description": "Flowy and comfortable, ideal for a day out at the beach.",
+        "price": 35.99
+      },
+      {
+        "name": "Bridesmaid Gown",
+        "image": "../images/bridesmaid-gown.jpeg",
+        "description": "Elegant apricot bridesmaid gown.",
+        "price": 120.00
+      },
+      {
+        "name": "Lace Dress",
+        "image": "../images/lace-dress.jpeg",
+        "description": "A stylish lace dress suitable for both casual and formal events.",
+        "price": 75.50
+      },
+      {
+        "name": "Music Sweater",
+        "image": "../images/music-sweater.jpeg",
+        "description": "Cozy sweater with musical notes pattern, great for music lovers.",
+        "price": 40.00
+      },
+      {
+        "name": "Poet's Sweater",
+        "image": "../images/poets-sweater.jpeg",
+        "description": "A warm, comfortable sweater inspired by dead poets society.",
+        "price": 45.00
+      },
+      {
+        "name": "Prairie Dress",
+        "image": "../images/prairie-dress.jpeg",
+        "description": "Vintage-style prairie dress, fits any size.",
+        "price": 60.00
+      },
+      {
+        "name": "Purple Dress",
+        "image": "../images/purple-dress.jpeg",
+        "description": "A bold, cutesie purple dress to make a statement at any event.",
+        "price": 55.00
+      },
+      {
+        "name": "Vintage Dress",
+        "image": "../images/vintage-dress.jpeg",
+        "description": "Vintage pink dress for a timeless, classic style.",
+        "price": 70.00
+      }
+    ]
+  }

@@ -13,6 +13,14 @@ body {
     color: var(--secondary-color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
 header {
     display: flex;
     justify-content: space-between;
