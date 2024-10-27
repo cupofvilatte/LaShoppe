@@ -1,6 +1,6 @@
 // fetchAndDisplay.js
 export function fetchAndDisplay() {
-    fetch('../data/listings.json')
+    fetch('./data/listings.json')
         .then(response => response.json())
         .then(data => {
             displayClothingItems(data.clothingItems);
