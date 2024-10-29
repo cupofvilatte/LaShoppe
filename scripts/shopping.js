@@ -1,5 +1,7 @@
 let cart = [];
 
+
+// local storage implementation
 function loadCart() {
     const savedCart = localStorage.getItem("cart");
     if (savedCart) {
