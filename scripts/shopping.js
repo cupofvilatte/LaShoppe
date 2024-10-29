@@ -45,6 +45,7 @@ function displayClothingItems(items) {
 
 function addToCart(item) {
     cart.push(item);
+    saveCart();
 
     const cartMessage = document.getElementById("cart-message");
     cartMessage.innerText = `Item has been added to cart!`;
