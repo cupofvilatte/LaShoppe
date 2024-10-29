@@ -1,5 +1,18 @@
 let cart = [];
 
+function loadCart() {
+    const savedCart = localStorage.getItem("cart");
+    if (savedCart) {
+        cart = JSON.parse(savedCart);
+        displayCart();
+    }
+}
+
+function saveCart() {
+    localStorage.setItem("cart", JSON.stringify(cart));
+}
+
+
 function fetchAndDisplay() {
     fetch('./data/listings.json')
         .then(response => response.json())
@@ -73,6 +86,8 @@ window.addEventListener("click", (event) => {
         cartModal.style.display = "none";
     }
 });
+
+loadCart();
 
 // Call the function to display the shopping items
 fetchAndDisplay();
