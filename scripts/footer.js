@@ -1,6 +1,6 @@
+// instance of importing module
 import { footerYearDisplay } from "./yearDisplay.mjs";
-// const currentYear = new Date().getFullYear();
-// document.getElementById('currentyear').textContent = currentYear;
+
 
 const wayfinder = document.getElementById('wayfinder');
     const mobileNav = document.getElementById('mobile-nav');

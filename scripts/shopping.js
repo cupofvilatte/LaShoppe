@@ -4,6 +4,7 @@ let cart = [];
 // local storage implementation
 function loadCart() {
     const savedCart = localStorage.getItem("cart");
+    // instance of conditional branching
     if (savedCart) {
         cart = JSON.parse(savedCart);
         displayCart();
@@ -24,6 +25,7 @@ function fetchAndDisplay() {
         .catch(error => console.error("Error fetching JSON data:", error));
 }
 
+// instance of DOM interaction
 function displayClothingItems(items) {
     const section = document.querySelector("section");
     section.innerHTML = "";
@@ -31,6 +33,7 @@ function displayClothingItems(items) {
     items.forEach(item => {
         const itemDiv = document.createElement("div");
 
+        // instance of a template literal
         itemDiv.innerHTML = `
             <h2>${item.name}</h2>
             <img loading="lazy" src="${item.image}" alt="${item.name} photo">
@@ -45,7 +48,9 @@ function displayClothingItems(items) {
     });
 }
 
+// instance of DOM interaction
 function addToCart(item) {
+    // instance of array method
     cart.push(item);
     saveCart();
 
@@ -75,6 +80,8 @@ function toggleCartModal() {
     const cartModal = document.getElementById("cart-modal");
     cartModal.style.display = cartModal.style.display === "block" ? "none" : "block";
 }
+
+// instances of DOM interaction
 
 document.getElementById("close-modal").addEventListener("click", toggleCartModal);
 
