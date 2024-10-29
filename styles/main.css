@@ -109,8 +109,8 @@ footer div {
     #mobile-nav {
         align-content: center;
         justify-content: center;
-        display: flex;
         flex-direction: column;
+        display: none;
     }
 
     #mobile-nav a {
